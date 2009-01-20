@@ -1,0 +1,5 @@
+h1. Django Folder Structure Template
+
+By "Alcides Fonseca":http://alcidesfonseca.com
+
+Just replace @yoursite@ with your project name.
