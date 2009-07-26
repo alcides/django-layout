@@ -24,11 +24,11 @@ LANGUAGE_CODE = 'en-us' # http://www.i18nguy.com/unicode/language-identifiers.ht
 SITE_ID = 1
 USE_I18N = True
 
-MEDIA_ROOT = relative('media/')
+MEDIA_ROOT = relative('public/media/')
 MEDIA_URL = '/media/'
 ADMIN_MEDIA_PREFIX = '/media/admin/'
 
-ROOT_URLCONF = 'yoursite.urls'
+ROOT_URLCONF = 'urls'
 
 INSTALLED_APPS = (
     'django.contrib.auth',
