@@ -1,3 +1,6 @@
 h1. Django Folder Structure Template
 
 By "Alcides Fonseca":http://alcidesfonseca.com
+
+Just replace @django-layout@ with your project name in the 
+ROOT_URLCONF variable in settings.py.
