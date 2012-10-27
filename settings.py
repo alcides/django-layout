@@ -31,10 +31,10 @@ SITE_ID = 1
 USE_I18N = True # Turned on is slower
 USE_L10N = True # Turned on will format dates to locale
 
-
-STATIC_ROOT = '' # Static Files
+MEDIA_ROOT = relative('public/media/')
+MEDIA_URL = '/media/'
+STATIC_ROOT = relative('public/static/')
 STATIC_URL = '/static/'
-MEDIA_ROOT = relative('public/media/') # Uploaded stuff
 ADMIN_MEDIA_PREFIX = '/media/admin/'
 
 STATICFILES_DIRS = () # Where statics can be found
