@@ -13,3 +13,5 @@ DATABASES = {
         'PORT': '',                      # empty -> default
     }
 }
+
+ALLOWED_HOSTS = ['*']
